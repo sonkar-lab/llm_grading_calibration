@@ -1,0 +1,67 @@
+# Step6 argparse defaults snapshot.
+# Generated from experiments/run_exp/step6_cross_comparison.py::build_parser.
+# Reference only: argparse remains the source of truth.
+# Loading this file should be a no-op relative to no --config.
+
+alpha: 0.05
+best_top_k: 5
+binning_strategies:
+- equal_width
+calibration_regression: false
+calibration_regression_bootstrap: 0
+calibration_regression_ci_method: percentile
+calibration_regression_fallback: linear
+calibration_regression_jackknife_max: 200
+calibration_regression_max_methods: null
+calibration_regression_max_models: null
+calibration_regression_min_n: 30
+calibration_regression_mode: linear
+calibration_regression_n_grid: 50
+calibration_regression_spline_df: 4
+ci_method: bca
+confirmatory_alpha: 0.017
+confirmatory_perm: 10000
+confirmatory_summary_scope: none
+dataset: ricechem
+force_progress: false
+gate_posthoc: false
+interaction_method: artc
+max_jackknife: 1000
+methods:
+- self_reported
+- self_consistency
+- token_probability
+- perturbation
+metrics:
+- is_correct
+- squared_error
+- raw_confidence
+- ece
+- mce
+- auc_roc
+- brier_mean
+- cov_at_5pct_risk
+- cov_at_10pct_risk
+- acc_at_50
+- acc_at_80
+models:
+- gptoss20b
+- qwen4b
+- llama8b
+n_bins: 10
+n_boot: 2000
+n_perm: 2000
+no_save: false
+output_root: null
+plot_all: false
+predictions_dir: null
+print_max_rows: 20
+print_results: false
+print_summary: false
+run_confirmatory: false
+run_id: null
+save_legacy: false
+seed: null
+skip_interaction_tests: false
+smoke_n: null
+write_manifest: false

@@ -1,0 +1,3 @@
+metric,seed,p_interaction,n,method,warnings,method_used
+is_correct,4242,0.04759624032438895,600,artc,[],artc
+raw_confidence,4242,8.837588520020982e-06,600,artc,[],artc

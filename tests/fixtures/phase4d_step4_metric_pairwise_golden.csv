@@ -1,0 +1,9 @@
+scope,question_id,metric,rubric_a,rubric_b,diff_obs,ci_low,ci_high,p_value,n_students,n_bootstrap,p_adjusted,significant,sig,p_adjustment_within_family,p_adjusted_primary,sig_primary,p_adjustment_primary
+within_question,1,ece,R3,R7,-0.7316239316239317,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,1,auc_roc,R5,R6,-0.42500000000000004,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,2,ece,R12,R9,0.38492063492063483,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,2,auc_roc,R10,R11,0.6818181818181819,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,3,ece,R16,R18,0.23333333333333342,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,3,auc_roc,R15,R16,-0.5,-0.5,0.0,1.0,2,20,1.0,False,,BH_within_rubric_metric_family,1.0,,BH_within_rubric_metric_family
+within_question,4,ece,R23,R26,0.16419753086419747,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family
+within_question,4,auc_roc,R23,R27,-0.44444444444444436,,,,0,20,,False,,BH_within_rubric_metric_family,,,BH_within_rubric_metric_family

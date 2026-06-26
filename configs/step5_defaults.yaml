@@ -1,0 +1,44 @@
+# Step5 argparse defaults snapshot.
+# Generated from experiments/run_exp/step5_*.py::build_parser.
+# Reference only: argparse remains the source of truth.
+# Loading this file should be a no-op relative to no --config.
+
+adaptive_perm: true
+adaptive_perm_band:
+- 0.5
+- 2.0
+adaptive_perm_max: 20000
+alpha: 0.05
+bootstrap_method: bca
+cluster_robust_sensitivity: null
+dataset: ricechem
+enable_perplexity: false
+exact_power: false
+features_cache_dir: experiments/features_cache
+features_cache_mode: read_write
+features_cache_version: v1
+high_threshold: 0.8
+index: 0
+low_threshold: 0.2
+method: self_reported
+model: null
+n_boot: 2000
+n_perm: 2000
+no_save: false
+output_root: null
+perplexity_batch_size: 32
+perplexity_debug: false
+perplexity_device: cuda:0
+perplexity_max_length: 512
+perplexity_min_tokens: 3
+perplexity_model: gpt2
+power_perm: 500
+power_sim: 200
+predictions_dir: null
+prefix: predictions
+run_id: null
+save_legacy: false
+seed: null
+smoke_n: null
+top_k: 10
+write_manifest: false

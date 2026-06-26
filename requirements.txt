@@ -1,0 +1,29 @@
+# Core LLM and ML libraries
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+transformers==4.57.1
+vllm==0.11.0
+flashinfer-python
+openai==2.6.0
+torch-c-dlpack-ext
+
+# Data processing
+pandas==2.3.3
+numpy==2.1.2
+datasets==4.4.2
+
+# Calibration and evaluation
+scikit-learn==1.7.2
+scipy==1.15.3
+statsmodels==0.14.6
+patsy==1.0.2
+
+# R bridge (optional, for lme4/ARTool via rpy2)
+rpy2==3.6.4
+
+# Plotting (optional, only for evaluation)
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Testing (optional)
+pytest==9.0.2

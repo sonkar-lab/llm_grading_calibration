@@ -1,0 +1,25 @@
+{
+  "R": {
+    "Version": "4.3.3",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "ARTool": {
+      "Package": "ARTool",
+      "Version": "0.11.2",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "lme4": {
+      "Package": "lme4",
+      "Version": "1.1-38",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+model,method,metric,value,n,binning_strategy
+gptoss20b,self_reported,is_correct,0.78,150,
+gptoss20b,self_reported,raw_confidence,0.8607407407407408,150,
+gptoss20b,self_reported,ece,0.08074074074074086,150,equal_width
+gptoss20b,self_reported,brier_mean,0.17300411522633746,150,
+llama8b,self_reported,is_correct,0.7333333333333333,150,
+llama8b,self_reported,raw_confidence,0.7044444444444444,150,
+llama8b,self_reported,ece,0.1399999999999999,150,equal_width
+llama8b,self_reported,brier_mean,0.23185185185185186,150,
+gptoss20b,self_consistency,is_correct,0.8,150,
+gptoss20b,self_consistency,raw_confidence,0.9319999999999999,150,
+gptoss20b,self_consistency,ece,0.13200000000000006,150,equal_width
+gptoss20b,self_consistency,brier_mean,0.16453333333333334,150,
+llama8b,self_consistency,is_correct,0.6666666666666666,150,
+llama8b,self_consistency,raw_confidence,0.925333333333333,150,
+llama8b,self_consistency,ece,0.25866666666666666,150,equal_width
+llama8b,self_consistency,brier_mean,0.2848,150,

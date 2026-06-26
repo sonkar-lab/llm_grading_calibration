@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Experiment outputs
+experiments/**/predictions_*.csv
+experiments/**/results_*.json
+experiments/**/results_*.csv
+experiments/RESULTS/**/*.csv
+experiments/RESULTS/
+experiments/RESULTS_COPY_JUST_IN_CASE/
+experiments/RESULTS_FINAL/
+experiments/raw_responses/
+results/**/*.csv
+results/**/*.json
+experiments/**/plots/
+experiments/**/cache/
+experiments/**/metrics/
+experiments/features_cache/
+experiments/features_cache/**
+experiments/predictions_csvs/
+experiments/predictions_csvs/**
+experiments/analysis/**/*.csv
+*.png
+*.log
+*.err
+*.out
+*.pid
+experiments/bash_runs/*.txt
+
+# Model checkpoints (if any)
+checkpoints/
+models/
+
+# Data (keep structure but not actual data files)
+# dataset/*/*.csv
+!dataset/README.md
+
+
+# Folders for testing or garbage code
+garbage/
+
+environment.yml
+
+UNUSED_FUNCTIONS.md
+
+*small_models.sh
+*run_analysis_pipe.sh
+# *big_models.sh
+outputs/*
+*/outputs/*
+outputs_runs/*
+*/outputs_runs/*
+output_newest/*
+*/output_newest/*
+output_newest/
+**/output_newest/
+
+# Analysis outputs
+*summary_report*
+results.zip
+experiments/*.zip
+*mixed_model_effects*.json
+*.gz
+
+# LaTeX projects
+overleaf_paper/
+overleaf_paperv2/
+overleaf_paperv3/
+GradingCalibration__AIED_2026/overleaf_paper/
+GradingCalibration__AIED_2026/
+GradingCalibration__AIED_2026_.zip
+experiments/*.tex
+experiments/results*.md
+experiments/*claim_map.md
+
+# Phase 6 corrected results and committed audit reports
+experiments/RESULTS_CANONICAL/
+!experiments/analysis/phase6/
+!experiments/analysis/phase6/*.csv
+!experiments/analysis/phase6/*.md
+!experiments/analysis/phase6/*.txt

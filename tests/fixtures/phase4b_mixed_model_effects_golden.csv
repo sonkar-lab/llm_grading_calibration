@@ -1,0 +1,67 @@
+feature,target,target_col,outcome_type,feature_type,beta,se,z,p_value,ci_low,ci_high,n_obs,method,inference_type,outcome_transformed,converged,gee_mode,gee_beta,gee_se,gee_p_value,sign_consistent,odds_ratio,or_ci_low,or_ci_high,ame_fe_approx,include_student_vc_glmm,warnings,p_adjusted,significant_fdr,fdr_note
+answer_length,Correctness,is_correct,binary,answer_constant,-0.13912608861404627,0.20372143502166143,-0.682923172022881,0.49166144410007917,-0.5384127641353195,0.260160586907227,240,lme4_glmer_LRT_subprocess,frequentist_lrt,none,True,,,,,,0.8701183095295383,0.5836739457527599,1.2971383733808912,-0.00040015409140848257,False,"<rpy2.rinterface_lib.sexp.NULLType object at 0x7757fc442180> [RTYPES.NILSXP]; LRT p-value from lme4; Wald CI for beta (screening).; lme4 subprocess stderr:
+R callback write-console: In addition:   
+R callback write-console: Warning messages:
+  
+R callback write-console: 1:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: 2:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: 3:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: 4:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: In addition:   
+R callback write-console: Warning message:
+  
+R callback write-console: In anova.merMod(new(""glmerMod"", resp = new(""glmResp"", .xData = <environment>),  :  
+R callback write-console: 
+   
+R callback write-console:  failed to find model names, assigning generic names
+  
+; Mapped optimizer 'powell' to lme4 optimizer 'bobyqa'.; Question effect mode: fixed (n_questions=4, fe_max=20).",,False,
+answer_length,Confidence,raw_confidence,continuous,answer_constant,0.0029886127125158674,0.004714500140383204,0.6339193177482749,0.5270167760352942,-0.006251637767744242,0.012228863192775977,240,lme4_lmer_LRT_subprocess,frequentist_lrt,none,True,,,,,,,,,,,"lme4 lmer singular fit (variance component ~0).; boundary (singular) fit: see help('isSingular'); lme4 subprocess stderr:
+R callback write-console: boundary (singular) fit: see help('isSingular')
+  
+R callback write-console: boundary (singular) fit: see help('isSingular')
+  
+R callback write-console: In addition:   
+R callback write-console: Warning messages:
+  
+R callback write-console: 1:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: 2:   
+R callback write-console: In (function (npt = min(n + 2L, 2L * n), rhobeg = NA, rhoend = NA,  :  
+R callback write-console: 
+   
+R callback write-console:  unused control arguments ignored
+  
+R callback write-console: In addition:   
+R callback write-console: Warning message:
+  
+R callback write-console: In anova.merMod(new(""lmerMod"", resp = new(""lmerResp"", .xData = <environment>),  :  
+R callback write-console: 
+   
+R callback write-console:  failed to find model names, assigning generic names
+  
+; Mapped optimizer 'powell' to lme4 optimizer 'bobyqa'.; Question effect mode: fixed (n_questions=4, fe_max=20).; Bounded outcome in [0,1]. Gaussian LMM OK for screening; use transform_bounded='logit_clip' if residuals are problematic.",,False,
