@@ -224,9 +224,13 @@ predictions and confidence scores consumed by steps 2–6.
 ## Citation
 
 ```bibtex
-@misc{grading_calibration,
-  title  = {Confidence Calibration for LLM-based Automated Grading},
-  author = {<author list>},
-  year   = {2026}
+@misc{ferrer2026trustllmgraderscalibrating,
+      title={When Can We Trust LLM Graders? Calibrating Confidence for Automated Assessment},
+      author={Robinson Ferrer and Damla Turgut and Zhongzhou Chen and Shashank Sonkar},
+      year={2026},
+      eprint={2603.29559},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.29559},
 }
 ```
